@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BaZi Calc</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+
+<table>
+<thead>
+	<tr>
+		<th>Day</th>
+		<th>Month</th>
+		<th>Year</th>
+	</tr>
+</thead>
+<!-- the day/month/year row -->
+<tfoot>
+	<tr>
+		<td>
+			<select id="days-opt">
+			</select>
+		</td>	
+		<td>
+			<select id="months-opt">
+			</select>
+		</td>
+		<td>
+			<select>
+				<option value="year">2016</option>
+			</select>
+		</td>	
+	</tr>
+
+</tfoot>
+
+<tbody>
+	<!-- the element row -->
+	<tr>
+		<td id="day-element"></td>
+		<td id="month-element"></td>
+		<td id="year-element">Yang Fire</td>
+	</tr>
+<!-- the zodiac row-->
+	<tr>
+		<td id="day-zod"></td>
+		<td id="month-zod"></td>
+		<td id="year-zod">Monkey</td>
+	</tr>
+</tbody>
+
+</table>
+
+<button>Calculate</button>
+	
+</body>
+</html>
