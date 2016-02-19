@@ -1,4 +1,17 @@
+html {
+	background-color: lightgrey;
+}
 table {
 	background-color: deeppink;
-	color: ;
+	margin-top: 15%;
+	margin-left: 40%;
+	box-shadow: 2px 2px 2px black;
+}
+button {
+	background-color: black;
+	color: lightgrey;
+	font-weight: bold;
+	border: deeppink;
+	margin-top: 1%;
+	margin-left: 45%;
 }
